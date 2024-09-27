@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Starlike Client</title>
+		<link
+			rel="icon"
+			type="image/png"
+			href="data:image/png;base64,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"
+		/>
+		<script>
+			"use strict";
+			if (typeof window !== 'undefined') {
+				const relayId = Math.floor(Math.random() * 3);
+				window.eaglercraftXOpts = {
+					container: 'game_frame',
+					assetsURI: ${assets_epk},
+					relays: [
+						{
+							addr: 'wss://relay.deev.is/',
+							comment: 'lax1dude relay #1',
+							primary: relayId == 0,
+						},
+						{
+							addr: 'wss://relay.lax1dude.net/',
+							comment: 'lax1dude relay #2',
+							primary: relayId == 1,
+						},
+						{
+							addr: 'wss://relay.shhnowisnottheti.me/',
+							comment: 'ayunami relay #1',
+							primary: relayId == 2,
+						},
+					],
+				};
+				window.eaglercraftXClientScriptElement = document.currentScript;
+				window.onload = () => window.main();
+			};
+
+			${classes_js};
+		</script>
+	</head>
+	<body
+		style="margin: 0px; width: 100vw; height: 100vh; overflow: hidden"
+		id="game_frame"
+	></body>
+</html>
